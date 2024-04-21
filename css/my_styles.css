@@ -1,0 +1,57 @@
+body * {
+    margin-left: 5px;
+    color: #18305A;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+h3 {
+    text-decoration: underline;
+}
+
+
+a:hover{
+    color: darkred;
+    }
+
+
+.bold{
+    font-weight: bold;
+}
+
+
+
+
+/* DIVs */
+
+.default_div {
+    position: absolute;
+}
+
+
+.header {
+    top: 15px;
+    left: 5px;
+    width: 500px;
+    /* bottom: 5px; 
+    We don't want it to extend to the whole page, so we will skip bottom */
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+
+.left_menu {
+    top: 175px;
+    width: 1000px;
+    left: 5px;
+}
+
+
+.right_menu {
+    top: 15px;
+    right: 5px;
+    width: 370px;
+    height: 150px;
+    align-items: center;
+}
